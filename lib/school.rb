@@ -37,7 +37,7 @@ class School
     
     # all_values
     
-    @roster.sort
+    @roster.values.flatten.sort
   end
   
 end
