@@ -24,18 +24,18 @@ class School
   end
   
   def sort
-    all_values = []
-    all_keys = []
-    @roster.each_with_index do |hash, index|
-      all_values << hash[hash.keys[index]]
-      all_keys << hash.keys[index]
-    end
-    @roster.sort d
-    all_keys.sort
+    # all_values = []
+    # all_keys = []
+    # @roster.each_with_index do |hash, index|
+    #   all_values << hash[hash.keys[index]]
+    #   all_keys << hash.keys[index]
+    # end
+    # @roster.sort d
+    # all_keys.sort
     
-    hash_sorter = {}
+    # hash_sorter = {}
     
-    all_values
+    # all_values
   end
   
 end
