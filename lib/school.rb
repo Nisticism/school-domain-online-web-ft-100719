@@ -40,7 +40,7 @@ class School
     thing = @roster.sort
     new_hash = {}
     thing.each_with_index do |array_roster, index|
-      new_hash[array_roster[0]] = array_roster[1]
+      new_hash[array_roster[0]] = array_roster[1].sort
     end
     new_hash
 
