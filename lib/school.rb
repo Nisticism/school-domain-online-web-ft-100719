@@ -24,18 +24,6 @@ class School
   end
   
   def sort
-    # all_values = []
-    # all_keys = []
-    # @roster.each_with_index do |hash, index|
-    #   all_values << hash[hash.keys[index]]
-    #   all_keys << hash.keys[index]
-    # end
-    # @roster.sort d
-    # all_keys.sort
-    
-    # hash_sorter = {}
-    
-    # all_values
     
     thing = @roster.sort
     new_hash = {}
@@ -43,7 +31,6 @@ class School
       new_hash[array_roster[0]] = array_roster[1].sort
     end
     new_hash
-
   end
   
 end
