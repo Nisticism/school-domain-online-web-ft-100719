@@ -36,6 +36,8 @@ class School
     # hash_sorter = {}
     
     # all_values
+    
+    @roster.sort
   end
   
 end
