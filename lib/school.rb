@@ -38,7 +38,7 @@ class School
     # all_values
     
     @roster.sort
-    new_hash
+    new_hash = {}
     @roster.each_with_index do |array_roster, index|
       new_hash[array_roster[0]] = array_roster[1]
     end
