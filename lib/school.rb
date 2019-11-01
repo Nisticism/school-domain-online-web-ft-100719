@@ -37,8 +37,9 @@ class School
     
     # all_values
     
-    @roster.sort 
-    @roster
+    new_hash = {}
+    new_hash = @roster.sort
+    new_hash
   end
   
 end
