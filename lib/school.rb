@@ -43,6 +43,7 @@ class School
       new_hash[array_roster[0]] = array_roster[1]
     end
     new_hash
+    @roster
   end
   
 end
